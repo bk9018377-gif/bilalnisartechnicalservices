@@ -2,38 +2,51 @@
 <html>
 <head>
 <title>Bilal Nisar Technical Services L.L.C.</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body{
-font-family:Arial,sans-serif;
-margin:0;
-padding:0;
-background:#f4f4f4;
-}
+body{font-family:Arial,sans-serif;margin:0;background:#f5f5f5}
 header{
-background:#003366;
+background:#0b2d5c;
 color:white;
-padding:30px;
 text-align:center;
+padding:40px 20px;
 }
 section{
+padding:25px;
+max-width:1200px;
+margin:auto;
+}
+.card{
+background:white;
 padding:20px;
+margin:15px 0;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 .services{
 display:grid;
-grid-template-columns:1fr;
-gap:10px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
 }
 .service{
 background:white;
 padding:15px;
+border-left:5px solid #d4af37;
 border-radius:8px;
 }
 footer{
-background:#003366;
+background:#0b2d5c;
 color:white;
 text-align:center;
-padding:15px;
+padding:20px;
+}
+.btn{
+background:#d4af37;
+color:black;
+padding:12px 20px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
 }
 </style>
 </head>
@@ -41,21 +54,26 @@ padding:15px;
 
 <header>
 <h1>Bilal Nisar Technical Services L.L.C.</h1>
-<p>Professional Building Maintenance & Technical Services</p>
+<p>Contracting & Building Works | Technical Services in UAE</p>
+<p>
+<a class="btn" href="tel:+971586866213">Call Now</a>
+</p>
 </header>
 
 <section>
+<div class="card">
 <h2>About Us</h2>
 <p>
-We provide professional technical and building maintenance services across the UAE.
-Our team specializes in electrical, plumbing, AC maintenance, carpentry, tiling,
-painting and building cleaning services.
+Bilal Nisar Technical Services L.L.C. provides professional building maintenance,
+contracting, AC maintenance, electrical, plumbing, painting, tiling, carpentry,
+and cleaning services across the UAE.
 </p>
+</div>
 
 <h2>Our Services</h2>
 
 <div class="services">
-<div class="service">Building Contracting</div>
+<div class="service">Building Contracting Works</div>
 <div class="service">Floor & Wall Tiling Works</div>
 <div class="service">AC Installation & Maintenance</div>
 <div class="service">Electrical Works</div>
@@ -64,13 +82,17 @@ painting and building cleaning services.
 <div class="service">Painting Contracting</div>
 <div class="service">Wallpaper Fixing</div>
 <div class="service">Building Cleaning Services</div>
+<div class="service">Plaster Works</div>
+<div class="service">Engraving & Ornamentation Works</div>
 </div>
 
+<div class="card">
 <h2>Contact Us</h2>
-<p>📞 0586866213</p>
-<p>📞 0568100210</p>
-<p>📧 infobilalnisartechnicalservicesllc@gmail.com</p>
-
+<p><b>Address:</b> Office No. A-39, Malik Mohammed Hashem Alawi Al Saf Building, Al Murar, Deira, Dubai, UAE</p>
+<p><b>Phone:</b> +971 58 686 6213</p>
+<p><b>Phone:</b> +971 56 810 0210</p>
+<p><b>Email:</b> info@bilalnisartechnicalservices.com</p>
+</div>
 </section>
 
 <footer>
